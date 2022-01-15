@@ -1,0 +1,9 @@
+repos:
+- repo: local
+  hooks:
+  - id: keymapviz
+    name: keymapviz
+    language: system
+    entry: make -f rules.mk keymapviz
+    pass_filenames: false
+    files: keymap\.c$
