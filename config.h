@@ -1,6 +1,7 @@
 #pragma once
 
 #define EE_HANDS
+#define ENCODER_RESOLUTION 2
 
 #ifdef RGBLIGHT_ENABLE
   #define RGBLIGHT_SLEEP
