@@ -1,6 +1,11 @@
 # :keyboard: Keymap for the Kyria
 This is my [QMK][1] keymap for my [splitkb.com][2] Kyria keyboard.
 
+## Installation
+1. Enable direnv `direnv allow`
+2. Install python requirements `pip install -r requirements.txt -U`
+3. Install pre-commit hooks `pre-commit install`
+
 ## Design goals
 Main focus is English and (vim) programming with some concerns for ease of use
 in French while keeping the layout not to exotic to be able to use regular
